@@ -17,6 +17,6 @@ still need to implement the client-Update frontend controls for this.
 Overall there were a lot of pieces in this project that were satisfying to implement and make functional-- 
 the Bcypt Login/Registration, accessing the API financial data, and using Chart.js. 
 
-I am very interested in creating functional, intriguing, and easy to read data anaylytics. My favorite part of this project was building out the code for the PieChart.
+I am very interested in creating functional, intriguing, and easy to read data analytics. My favorite part of this project was building out the code for the PieChart.
 
 
