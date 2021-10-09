@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*========================== GLOBAL STYLES =======================*/
+
+body {
+	background-color:#1a1a1a;
+	color: #F5D9D7;
+	font-family:'Roboto', sans-serif;
+    font-weight: 300;
+	width: 100%;
+}
+
+/*========================== MOBILE STYLES ===========================*/
+
+/*  NAVIGATION and HEADERS  */
+#logo {
+    margin-top: 5em;
+}
+
+hr.line-break {
+	border-top: 1px dotted #FA9137;
+	margin: 0;
+	width: 100%;
+}
+
+h2#hero-header {
+    color: #40cfff;
+    font-size: 2.5em;
+	font-weight: 700;
+}
+
+h2#dashboard-header {
+    color: #b3ecff;
+    font-size: 2.1em;
+    font-weight: 300;
+}
+
+.nav-text {
+	color: #F5D9D7;
+	font-size: .9rem;
+	font-weight: 500;	
+}
+
+.section-titles {
+    color:#b3ecff;
+    text-align: center;
+}
+
+#coin-stat-title {
+    margin-top: 10em;
+}
+
+/*====================== FORMS =====================================*/
+
+.form-input-field {
+    background-color: rgba(35, 55, 75, 0.3);
+    border: none;
+    color:  #F5D9D7;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form-input-field:focus {
+    color:  #F5D9D7;
+    background-color:rgba(35, 55, 75, 0.4);
+}
+
+#question-input {
+    width: 20rem;
+}
+
+.form-text {
+    color: #fcbb83;
+    font-weight: 400;
+}
+
+
+/*====================== LINKS and BUTTONS ========================= */
+
+.enter-btn {
+    font-weight: 600; 
+    text-transform: uppercase;
+    background-color:#459fbd;
+    padding: 2% 0;
+    width: 90%;
+}
+
+.registration-btn {
+    margin-top: 3%;  
+}
+
+.login-btn {
+    background-color:#40cfff;
+} 
+
+.external-link {
+    color: #40cfff;
+}
+
+.question-btn {
+    background-color: #404040;
+}
+
+.reg-login-btn {
+    color: #F5D9D7;
+    background-color: #1a1a1a;
+    text-align: center;
+    width: 100%;
+}
+
+/*====================== MAP ========================= */
+
+.map-container {
+    height: 500px;
+    margin-top: 6em;
+    }
+
+.map-sidebar {
+    background-color: rgba(35, 55, 75, 0.4);
+    color: #b3ecff;
+    padding: 6px 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.map-title {
+    text-align: center;
+}
+
+.map-list {
+    font-size: .9em;
+}
+
+/*========================  CARDS =========================*/
+
+.token-card {
+    color: #ccf2ff;
+	background-color:  #002633;
+	border: 1px dotted #FA9137;   
+}
+
+.small-tok {
+    width: 220px;
+}
+
+.reg-log-card {
+    width: 20rem;
+}
+
+.card-text {
+    font-size: .8em;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.coin-int-value {
+    font-weight: 400;
+}
+
+.qa-lead-card {
+    color: #ccf2ff;
+    width: 40rem;
+}
+
+.qa-lead-card-text {
+    font-size: .7em;
+}
+
+#question-bar,
+#answer-bar {
+    color: #F5D9D7;
+    font-size: 1.1em;
+}
+
+.question-card {
+    background-color: #262626;
+    margin: 1em;
+    width: 18rem;
+}
+
+.question-board {
+    margin-top: 6.5em;
+}
+
+/*====================== CHART =======================*/
+
+.pie-chart {
+    width: 90%;
+}
+
+/*=================  TABLET STYLES  ====================*/
+@media only screen and (min-width: 768px) {
+    
+
+    h2#hero-header {
+        font-size: 4em;
+        font-weight: 700;
+    }
+    
+    .token-card {
+        width: 18rem;
+    }
+
+    .qa-card-text {
+        font-size: .9em;
+    }
+}
+
+/*==================  DESKTOP Styles  ========================*/
+@media only screen and (min-width: 1200px) {
+
+    #logo {
+        margin-top: 3%;
+    }
+
+    h2#hero-header {
+        font-size: 6em;
+        font-weight: 700;
+    }
+
+    .token-card {
+        width: 20rem;
+    }
+    
+    .pie-chart {
+        width: 70%;
+    }
+    
+    .qa-lead-card-text {
+        font-size: 1em;
+    }
+
+    .question-input-field {
+        width: 36rem;
+    }
+}
