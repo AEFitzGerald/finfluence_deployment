@@ -5,7 +5,7 @@ This is a MERN project, a work in progress, an exploration of building a Digital
 and deliver it to the client with a friendly user interface, in the quest to build a personalized social-FIN hub. 
 
 Using CoinGecko API, I created stat cards with a selection of crypto financial data, and funneled some of the API data into an infographic,
-maiking use of the Chart.js library. 
+making use of the Chart.js library. 
 
 For a dashboard feature, I styled an on-brand world map using Mapbox API, and layed it into the landing page and dashboard of the app. Eventually, 
 I would like to build out custom markers on the map of blockchain projects happening around the world. 
