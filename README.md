@@ -1,21 +1,14 @@
 # finfluence_deployment
 Deployed with AWS Cloud Service http://3.22.233.93/
 
-This is a MERN project, a work in progress, an exploration of building a digital asset dashboard. My goal was to incorporate cryptocurrency API data, 
-and deliver it to the client with a friendly user interface, in the quest to build a personalized social-FIN hub. 
+This is a Full-Stack MERN project. As the lead developer and designer my goal was to build a digital asset dashboard within a weeks time- the concept was to make a financial site, where users could explore digital asset trading and discuss different values of blockchain projects, with a focus on a blockchain project's impact, for social and environmental good.
+I started in Figma and created a few wireframes. Using the MERN stack, I incorporated CoinGecko's API data, and mapped the data into cryptocurrency stat cards, and I used Chart.js' JavaScript library to make a dynamic infographic. I built out a User schema in MongoDB with a bcrypt registration and login.
 
-Using CoinGecko API, I created stat cards with a selection of crypto financial data, and funneled some of the data into an infographic,
-making use of the Chart.js library. 
+For a dashboard feature, I styled a world map using Mapbox Studio, and created a functional React map component. Eventually, I would like to build custom markers on the map to distinguish blockchain project locations.
 
-For a dashboard feature, I styled an on-brand world map using Mapbox API, and layed it into the landing page and dashboard of the app. Eventually, 
-I would like to build out custom markers on the map of blockchain projects happening around the world. 
+I pushed my working-knowledge of MongoDB and Mongoose further by creating a 1:N database schema for the Question and Answer feature of the app. In the frontend, for the QA feature, I still need to add other CRUD capabilities, while the API routes and backend are ready to go. The idea is to have questions and answers like sticky notes.
 
-I pushed my working-knowledge of MongoDB and Mongoose further by creating a 1:N database schema for the Question and Answer feature of the app.  Right now, users can input
-questions, retrieve that quesiton, add an answer to the question, and retrieve all the answers to the question. I have full CRUD routes built out for this in the backend, and 
-still need to implement the client-Update frontend controls. 
-
-Overall there were a lot of pieces in this project that were satisfying to implement and make functional-- 
-the Bcypt Login/Registration, accessing the API financial data, and using Chart.js. 
+I am very interested in creating functional, intriguing, and easy to read, data analytics. I love the charts on Dune Analytics. My favorite part of this project was building the dynamic infographic with Chart.js.
 
 I am very interested in creating functional, intriguing, and easy to read data analytics. My favorite part of this project was building out the code for the PieChart.
 
