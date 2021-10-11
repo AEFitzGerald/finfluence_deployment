@@ -2,7 +2,8 @@
 Deployed with AWS Cloud Service http://3.22.233.93/
 
 This is a Full-Stack MERN project. As the lead developer and designer my goal was to build a digital asset dashboard within a weeks time- the concept was to make a financial site, where users could explore digital asset trading and discuss different values of blockchain projects, with a focus on a blockchain project's impact, for social and environmental good.
-I started in Figma and created a few wireframes. Using the MERN stack, I incorporated CoinGecko's API data, and mapped the data into cryptocurrency stat cards, and I used Chart.js' JavaScript library to make a dynamic infographic. I built out a User schema in MongoDB with a bcrypt registration and login.
+
+Using the MERN stack, I incorporated CoinGecko's API data, and mapped the data into cryptocurrency stat cards, and I used Chart.js' JavaScript library to make a dynamic infographic. I built out a User schema in MongoDB with a bcrypt registration and login.
 
 For a dashboard feature, I styled a world map using Mapbox Studio, and created a functional React map component. Eventually, I would like to build custom markers on the map to distinguish blockchain project locations.
 
