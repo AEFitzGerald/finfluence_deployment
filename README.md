@@ -9,8 +9,7 @@ For a dashboard feature, I styled a world map using Mapbox Studio, and created 
 
 I pushed my working-knowledge of MongoDB and Mongoose further by creating a 1:N database schema for the Question and Answer feature of the app. In the frontend, for the QA feature, I still need to add other CRUD capabilities, while the API routes and backend are ready to go. The idea is to have questions and answers like sticky notes.
 
-I am very interested in creating functional, intriguing, and easy to read, data analytics. I love the charts on Dune Analytics. My favorite part of this project was building the dynamic infographic with Chart.js.
+I am very interested in creating functional, intriguing, and easy to read, data analytics. My favorite part of this project was building the dynamic infographic with Chart.js.
 
-I am very interested in creating functional, intriguing, and easy to read data analytics. My favorite part of this project was building out the code for the PieChart.
 
 
