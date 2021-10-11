@@ -1,7 +1,7 @@
 # finfluence_deployment
 Deployed with AWS Cloud Service http://3.22.233.93/
 
-This is a Full-Stack MERN project. As the lead developer and designer my goal was to build a digital asset dashboard within a weeks time- the concept was to make a financial site, where users could explore digital asset trading and discuss different values of blockchain projects, with a focus on a blockchain project's impact, for social and environmental good.
+This is a Full-Stack MERN project. As the lead developer and designer my goal was to build a digital asset dashboard within a weeks time- the concept was to make a financial site, where users could explore digital asset trading and discuss different values of blockchain projects, with a focus on social and environmental good.
 
 Using the MERN stack, and axios requests I queried CoinGecko's API, mapping the data into cryptocurrency stat cards, and utilizing Chart.js' JavaScript library to make a dynamic infographic. I built out a User schema in MongoDB with a bcrypt registration and login.
 
