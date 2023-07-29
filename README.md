@@ -1,5 +1,5 @@
 # finfluence_deployment
-Deployed with AWS Cloud Service http://3.22.233.93/
+Deployed with AWS Cloud Service (taken down)
 
 This is a Full-Stack MERN project. As the lead developer and designer my goal was to build a digital asset dashboard within a weeks time- the concept was to make a financial site, where users could explore digital asset trading and discuss different values of blockchain projects, with a focus on social and environmental good.
 
